@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Ghastly Panic';
+    src: url('../fonts/GhastlyPanic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ghastly Panic';
+    font-size: 3.5rem;
+    color: white;  
+}
+
+ul li:hover{
+    color: rgb(41, 100, 139);
+    cursor: pointer
+}
+
